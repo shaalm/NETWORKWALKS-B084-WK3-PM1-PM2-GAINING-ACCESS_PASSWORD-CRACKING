@@ -6,10 +6,10 @@ This repository contains the hands-on labs, documentation, and video demonstrati
 
 ## 📂 Modules Overview
 
-*   **[Project Module 1: Password Cracking with JTR]**
-*   **[Project Module 2: Password Cracking with NW Tools]**
-*   **[Optional Module: AI-Assisted JTR Password Cracking]**
-*   **[Hexstrike MCP Setup Guide]**
+*   **Project Module 1: Password Cracking with JTR**
+*   **Project Module 2: Password Cracking with NW Tools**
+*   **Optional Module: AI-Assisted JTR Password Cracking**
+*   **Hexstrike MCP Setup Guide**
 
 ---
 
