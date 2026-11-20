@@ -1,4 +1,4 @@
-# 🔐 Networkwalks B084 - Week 3: Gaining Access & Password Cracking
+# 🔐Gaining Access & Password Cracking
 
 Welcome to my Week 3 project repository for the **Cybersecurity & Ethical Hacking** course by Networkwalks. 
 
@@ -6,10 +6,10 @@ This repository contains the hands-on labs, documentation, and video demonstrati
 
 ## 📂 Modules Overview
 
-*   **[Project Module 1: Password Cracking with JTR](W3-PM1%20-%20Week3%20-%20Project%20Module1%20-%20Password%20Cracking%20with%20JTR%20v1.pdf)**
-*   **[Project Module 2: Password Cracking with NW Tools](W3-PM2%20-%20Week3%20-%20Project%20Module2%20-%20Password%20Cracking%20with%20NW%20Tools%20v1.pdf)**
-*   **[Optional Module: AI-Assisted JTR Password Cracking](z.%20Optional%20Module%20Lab%20-%20JTR%20Password%20Cracking%20Lab%20v1%20(AI-version).pdf)**
-*   **[Hexstrike MCP Setup Guide](7.2.1.%20LAB%20PRACTICE%20-%20How%20to%20setup%20Hexstrike%20MCP%20with%20Claude%20v1.pdf)**
+*   **[Project Module 1: Password Cracking with JTR]**
+*   **[Project Module 2: Password Cracking with NW Tools]**
+*   **[Optional Module: AI-Assisted JTR Password Cracking]**
+*   **[Hexstrike MCP Setup Guide]**
 
 ---
 
@@ -95,10 +95,10 @@ Added the following configuration to the `claude_desktop_config.json` file:
 ```
 
 ### 🧠 The AI Prompts Used
-Once the server was running and connected to Claude, the following prompts were used to crack the target file (`networkwalks_flag1.pdf`):
+Once the server was running and connected to Claude, the following prompts were used to crack the target file (`My Locked PDF 2&3.pdf`):
 
 1. *"Check if John the Ripper is installed in this Hexstrike MCP and show me its version."*
-2. *"Please calculate the hash value of this PDF file: `/home/kali/Desktop/hash3.networkwalks_flag1.pdf`"*
+2. *"Please calculate the hash value of this PDF file: `/home/kali/Desktop/mylockedPDF2.pdf`"*
 3. *"Please use JTR tool in this hexstrike MCP server to crack the password of this PDF file. Use the rockyou.txt wordlist dictionary."*
 
 **Result:** Claude AI autonomously executed the commands, utilized JTR, and successfully cracked the password (`password1`) using the `rockyou.txt` wordlist!
